@@ -1,0 +1,26 @@
+[info][title]Daily Report: November 16, 2021[/title]
+1. Progress
+- Started Laravel 8 from Scratch Course (around 2:30pm)
+  - Section 1: Prerequisites and Setup [4/4 FINISHED]
+  - Section 2: The Basics [9/9 FINISHED]
+  - Section 3: Blade [3/3 FINISHED]
+
+2. Problem/s
+- Instructor uses PHPSTORM for his editor environment, whereas I use VS CODE
+  - lack of classname/namespace resolver
+    - sln: vs code extension `PHP Namespace Resolver`
+  - lack of shorthand for php class constructor with attribute assignments
+    - sln: vs code extension `PHP Constructor`
+  - lack of snippets(for easy code completions) for laravel (i.e. @section, @yield)
+    - sln: vs code extension `Laravel Blade Snippets`
+
+3. Tomorrow’s Plan
+- Continue Laravel 8 from Scratch Course
+
+4. Learning/Realizations
+- php/laravel useful functions
+  - func collect from Collections for easy array manipulations and great methods
+  - alongside with method chaining to produce compact and readable code
+- laravel components
+  - for familiarizing myself with component based web development, as seen in popular JS web frameworks
+[/info]

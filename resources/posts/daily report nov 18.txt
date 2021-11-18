@@ -1,0 +1,35 @@
+[info][title]Daily Report: November 18, 2021[/title]
+1. Progress
+- Completed Laravel 8 from Scratch Course
+  - Section 9: Forms and Authentication [7/7]
+  - Section 10: Comments [6/6]
+  - Section 11: Newsletters and APIs [4/4]
+  - Section 12: Admin Section [8/8]
+  - Section 13: Conclusion [1/1]
+
+
+2. Problem/s
+- version specific php implementation
+  - im using php 7, where maybe code#1 is not yet available
+  - sln: use code#2 for now,
+  [code]code#1
+  public function __construct(protected ApiClient $client) {
+  }
+  [/code]
+
+  [code]code#2
+  protected $client;
+
+  public function __construct(ApiClient $client) {
+      $this->client = $client;
+  }
+  [/code]
+
+
+3. Tomorrow’s Plan
+- Start with 
+
+
+4. Learning/Realizations
+- laravel custom blade directives can be created to simplify syntax
+- laravel gate are very useful to simplify some middleware implementation

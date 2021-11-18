@@ -1,0 +1,42 @@
+[info][title]Daily Report: November 17, 2021[/title]
+1. Progress
+- Continued Laravel 8 from Scratch Course
+  - Section 4: Working With Databased [14/14]
+  - Section 5: Integrate the Design [6/6]
+  - Section 6: Search [2/2]
+  - Section 7: Filtering [5/5]
+  - Section 8: Pagination [1/1]
+
+2. Problem/s
+- Laravel component buidling
+  - need more understanding
+- hard to digest laravel query building using scope
+  [code]
+  $query->when(
+      $filters['search'] ?? false,
+      fn ($query, $search) =>
+      $query->where(
+          fn ($query) =>
+          $query
+              ->where('title', 'like', '%' . $search . '%')
+              ->orWhere('body', 'like', '%' . $search . '%')
+      )
+  );
+  [/code]
+  [code]
+  $query->when(
+      $filters['category'] ?? false,
+      fn ($query, $category) =>
+      $query->whereHas('category', fn ($query) =>
+      $query->where('slug', $category))
+  );
+  [/code]
+
+3. Tomorrow’s Plan
+- Continue Laravel 8 from Scratch Course
+- Understand the laravel blade components and the query building using eloquent
+
+4. Learning/Realizations
+- query building using eloquent is useful and sometimes has functions that make understanding the goal of the query itself to be easier
+- clockwork, a php library is very useful for finding bottlenecks especially in the
+[/info]
