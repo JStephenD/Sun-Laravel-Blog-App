@@ -27,7 +27,7 @@
 
 
 3. Tomorrow’s Plan
-- Start with 
+- Start with Reactjs tutorials
 
 
 4. Learning/Realizations
